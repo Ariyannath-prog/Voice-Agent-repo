@@ -12,16 +12,19 @@
     display: inline-flex;
 }
 .sub_main{
-    width: 110px;
-    height: 200px;
+    width: 120px;
+    height: 140px;
     border: 1px solid black;
     padding: 10px;
     margin: 5px;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 7px;
+    border-radius: 20px;
     text-align: center;
+    box-shadow: 0 6px 15px rgba(0, 123, 255, 0.2),
+                inset 0 4px 4px rgba(255, 255, 255, 0.3),
+                0 4px 4px rgba(0, 123, 255, 0.1);
 }
 .logo{
     width: 35px;
@@ -39,7 +42,11 @@
     padding: 10px;
     width: 100%;
     height: 100%;
-    background-color: #f8f9fa;
+    background-color: #e6e6e7e1;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.2),
+                inset 0 2px 4px rgba(255, 255, 255, 0.3),
+                0 2px 4px rgba(0, 123, 255, 0.1);
 }
 .points{
     display: block;
@@ -102,7 +109,7 @@
     box-shadow: 0 4px 15px rgba(0, 123, 255, 0.2),
                 inset 0 2px 4px rgba(255, 255, 255, 0.3),
                 0 2px 4px rgba(0, 123, 255, 0.1);
-                display: inline-block;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
 }
