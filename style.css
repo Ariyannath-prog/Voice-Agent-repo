@@ -13,7 +13,7 @@
 }
 .sub_main{
     width: 120px;
-    height: 140px;
+    height: 14  0px;
     border: 1px solid black;
     padding: 10px;
     margin: 5px;
@@ -126,4 +126,8 @@
     transform: translateY(1px);
     box-shadow: 0 2px 8px rgba(0, 123, 255, 0.2),
                 inset 0 2px 4px rgba(255, 255, 255, 0.3);
+}
+#blog{
+    text-decoration: none;
+    color: white;
 }
